@@ -11,7 +11,7 @@ def return_ice_cream_info(flavor):
     """ Return the ice cream flavor the user enters as JSON
     """
     if flavor is None:
-        return "Please provide a flavor of ice cream"
+        return "Please provide a flavor of ice cream at the end of the URL (e.g. /ice-cream/vanilla)"
 
     return jsonify({'flavor': flavor})
 
